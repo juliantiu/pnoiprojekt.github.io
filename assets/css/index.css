@@ -13,9 +13,20 @@ h3 {
     font-family: 'Permanent Marker', cursive !important;
 }
 
+a {
+    font-family: 'Permanent Marker', cursive !important;
+    text-decoration: none !important;
+    font-size: 4vw;
+    color: black !important;
+}
+
+a:hover {
+    opacity: .5;
+}
+
 span {
     font-family: 'Permanent Marker', cursive !important;
-    font-size: 3vw;
+    font-size: 1.5vw;
 }
 
 img {
@@ -65,12 +76,12 @@ i:nth-child(2) {
     content: "";
 }
 
-#content > .row > .col-12 {
-    padding: 0px 7%;
+#empty-row {
+    margin-bottom: 35%;
 }
 
-#content .row {
-    margin-bottom: 35%;
+#content > .row > .col-12 {
+    padding: 0px 7%;
 }
 
 #picture {
