@@ -4,7 +4,7 @@ html, body{
 
 h1 {
     font-family: 'Permanent Marker', cursive !important;
-    font-size: 10vw !important;
+    font-size: 8vw !important;
     line-height: 80% !important;
 }
 
@@ -33,6 +33,12 @@ img {
     width: 26vw;
     border-radius: 100%;
 
+}
+
+small {
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
 i {
@@ -73,6 +79,7 @@ i:nth-child(2) {
 #empty-row {
     margin-bottom: 35%;
 }
+
 
 #content > .row > .col-12 {
     padding: 0px 7%;
