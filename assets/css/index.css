@@ -63,6 +63,23 @@ i:nth-child(2) {
     100% {opacity: 1}
 }
 
+#assignment2 a {
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+#assignment2 button {
+    position: fixed;
+    cursor: pointer;
+    z-index: 5;
+}
+
+#assignment2 i {
+    position: static;
+    font-size: 3vw;
+    animation: none;
+}
+
 #second-half {
     height: 100vh;
     width: 100vw;

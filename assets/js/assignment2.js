@@ -62,3 +62,7 @@ $( document ).ready(function() {
         }
     });
 });
+
+function back() {
+    window.location.href = './index.html';
+}
