@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="CSCE 445 Personal Website Assignment">
+        <meta name="keywords" content="">
+        <meta name="author" content="Julian Tiu">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>CSCE 445 Assignment 3</title>
+
+        <link rel="stylesheet" href="./assets/css/index.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">        
+        <!-- jQuery library -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>  
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+        <!-- js -->
+        <script src="./assets/js/assignment3.js"></script>   
+
+    </head>
+
+    <body>
+        <div id="assignment2" class="container-fluid h-100">
+            <small>scroll.</small>
+            <div id="same" class="row h-100 first-half hidden">
+                <div class="col-md-6">
+                    <div class="row h-100 align-items-center justify-content-center">
+                        <div class="col-12 text-center">
+                            <h1>Things we have in common</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="why-same" class="row h-100 first-half hidden">
+                <div class="col-md-6">
+                    <div class="row h-100 align-items-center justify-content-center">
+                        <div class="col-12 text-center">
+                            <h1>We actually have things in common?</h1>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div id="diff" class="row h-100 first-half hidden">
+                <div class="col-md-6">
+                    <div class="row h-100 align-items-center justify-content-center">
+                        <div class="col-12 text-center">
+                            <h1>Things we have different</h1>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div id="why-diff" class="row h-100 first-half hidden">
+                <div class="col-md-6">
+                    <div class="row h-100 align-items-center justify-content-center">
+                        <div class="col-12 text-center">
+                            <h1>Why are we so different?</h1>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div id="second-half" class="row">
+                <button class="btn" onclick="back()"><i class="fas fa-chevron-left"></i></button>
+                <div class="col-12">
+                    <div class="row h-100"></div>
+                    <div class="row h-100">
+                        <div class="col-md-6"></div>
+                            <div id="content" class="col-md-6">
+                                <div class="row h-100 align-items-center">
+                                    <div class="col-12">
+                                        <p>
+                                            First of, it's good to finally see someone who had the 
+                                            same reason that I did for taking this class. Kristopher 
+                                            and I both want another A in our transcipt.
+                                        </p>
+                                        <p>
+                                            The other things that the current CSCE 445 students 
+                                            have in common with the '04 CSCS 445 students include 
+                                            <span>phone usage</span>, <span>instant messaging</span>
+                                            , <span>internet usage</span>, <span>email
+                                            usage</span> , and even someone ahead of the game who 
+                                            already started using <span>online music services.
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row h-100 align-items-center">
+                                    <div class="col-12">
+                                        <p>
+                                            Yes. Even though these were students 15 years ago, 
+                                            people didn't necessarily change as much as devices. 
+                                            Whether it is through watching televsion or listening 
+                                            to music or talking to friends, people will always 
+                                            seek sources of entertainment and socialization. This 
+                                            is the same now, 15 years ago, or 50 years ago. Only 
+                                            the medium of media changed. 
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row h-100 align-items-center">
+                                    <div class="col-12">
+                                        <p>
+                                            Boy, do we use a lot of different media usage compared 
+                                            to students 15 years ago. Among these things include 
+                                            <span>actual newspapers</span>, <span>landline 
+                                                telephones</span>, <span>the radio</span>, 
+                                                <span>mp3 players</span>, <span>car stereos</span>, 
+                                                <span>old television shows</span>, and <span>paper 
+                                                books</span>!
+                                        </p>
+                                        <p>
+                                            Furthermore, just naming a few, they did not have 
+                                            <span>Youtube</span>, <span>Netflix</span>, 
+                                            <span>Spotify</span>, <span>Facebook</span>, 
+                                            <span>Twitter</span>, <span>Instagram</span>, 
+                                            <span>Snapchat</span>, and they actually studied 
+                                            because they didn't have <span>Chegg</span>.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row h-100 align-items-center">
+                                    <div class="col-12">
+                                        <p>
+                                            Now I'm not saying that we no longer watch television 
+                                            or listen to the radio today, but these are by no means 
+                                            the main medium in which we watch our shows or listen to 
+                                            our music. However, devices such as the landline 
+                                            telephone and mp3 players that were so popular back 
+                                            then are rare gems nowadays. Although I am glad to 
+                                            see that no one from '04 put walkman. They would be 
+                                            calssified as '04's hipsters. 
+                                        </p>
+                                        <p>
+                                            Such a drastic change even only from 15 years ago is 
+                                            due to the advance in recent technologies. The devices 
+                                            that we have today must accomodate for the trend of 
+                                            rapid exchange of information. Many devices developed 
+                                            today are made with the consideration of how it can 
+                                            transfer data in the most efficient way. Changes in 
+                                            the technology we had back then versus what we have 
+                                            now may also be due to the convenience of 
+                                            miniaturization and portability. Phones, laptops, 
+                                            and telvisions are no longer seperate devices. This 
+                                            leads to the obsoleteness of some devices, because 
+                                            why have three different devices when you can have 
+                                            one in your pocket? This also paved the way for 
+                                            "smart" devices and the internet of things.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
+
+
+
+<!--
+
+    The same
+    ********
+
+    Instant Messaging - Nathanael Taylor, DoHyoung Kim, Hyo Taeg Jung, Sarah Davis, Paul A. Davis
+    
+    Phone - Nathanael Taylor, Chris Okoloise, Shreyas Kumar
+
+    Internet - Ryan Villalpando, Shreyas Kumar, Matt Fisher, Tim Faltemier, Paul A. Davis, Soonil Bae
+
+    Email - Chris Okoloise, DoHyoung Kim, Shreyas Kumar, Hyo Taeg Jung, Matt Fisher, Tim Faltemier, Sarah Davis, Soonil Bae
+
+    Online music - DoHyoung Kim
+
+    Different
+    *********
+
+    Newspaper - Sarah Davis, Paul A. Davis
+
+    Telephones - Sarah Davis, Soonil Bae
+
+    Radio - Hyo Taeg Jung, Kristopher J Horn, Matt Fisher, Sarah Davis
+
+    Mp3s - Nathanael Taylor, Youngjoo Park
+
+    Car stereo - Ryan Villalpando, Youngjoo Park
+
+    House Phone - Nathanael Taylor, Ryan Villalpando, Youngjoo Park, Tim Faltemier
+
+    Television - Nathanael Taylor, Ryan Villalpando, Youngjoo Park, Chris Okoloise, DoHyoung Kim, Hyo Taeg Jung, Matt Fisher, Tim Faltemier, Sarah Davis, Soonil Bae 
+
+    Books - Paul A. Davis
+
+    
+    They dont have
+    **************
+    Video calls
+    
+-->

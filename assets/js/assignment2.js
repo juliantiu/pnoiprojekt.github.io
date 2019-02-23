@@ -2,7 +2,7 @@ $( document ).ready(function() {
     $("#second-half").scroll(function(){
         var currentScroll = $(this).scrollTop();
         var scrollHeight = $("#second-half").height()*6;
-        if(currentScroll > scrollHeight*0 && currentScroll < scrollHeight*.22) {
+        if(currentScroll > scrollHeight*.0 && currentScroll < scrollHeight*.40) {
             $("#youtube").removeClass("hidden");
             $("#spotify").addClass("hidden");
             $("#groupme").addClass("hidden");
@@ -11,7 +11,7 @@ $( document ).ready(function() {
             $("#slack").addClass("hidden");
             $("small").addClass("hidden");
         }
-        else if(currentScroll > scrollHeight*.22 && currentScroll < scrollHeight*.40) {
+        else if(currentScroll > scrollHeight*.40 && currentScroll < scrollHeight*.73) {
             $("#youtube").addClass("hidden");
             $("#spotify").removeClass("hidden");
             $("#groupme").addClass("hidden");
@@ -19,7 +19,7 @@ $( document ).ready(function() {
             $("#soundcloud").addClass("hidden");
             $("#slack").addClass("hidden");
         }
-        else if(currentScroll > scrollHeight*.40 && currentScroll < scrollHeight*.56) {
+        else if(currentScroll > scrollHeight*.73 && currentScroll < scrollHeight*.98) {
             $("#youtube").addClass("hidden");
             $("#spotify").addClass("hidden");
             $("#groupme").removeClass("hidden");
@@ -27,7 +27,7 @@ $( document ).ready(function() {
             $("#soundcloud").addClass("hidden");
             $("#slack").addClass("hidden");
         }
-        else if(currentScroll > scrollHeight*.56 && currentScroll < scrollHeight*.70) {
+        else if(currentScroll > scrollHeight*.98 && currentScroll < scrollHeight*1.26) {
             $("#youtube").addClass("hidden");
             $("#spotify").addClass("hidden");
             $("#groupme").addClass("hidden");
@@ -35,7 +35,7 @@ $( document ).ready(function() {
             $("#soundcloud").addClass("hidden");
             $("#slack").addClass("hidden");
         }
-        else if(currentScroll > scrollHeight*.70 && currentScroll < scrollHeight*.84) {
+        else if(currentScroll > scrollHeight*1.26 && currentScroll < scrollHeight*1.51) {
             $("#youtube").addClass("hidden");
             $("#spotify").addClass("hidden");
             $("#groupme").addClass("hidden");
@@ -43,7 +43,7 @@ $( document ).ready(function() {
             $("#soundcloud").removeClass("hidden");
             $("#slack").addClass("hidden");
         }
-        else if(currentScroll > scrollHeight*.84) {
+        else if(currentScroll > scrollHeight*1.51 && currentScroll < scrollHeight*1.9) {
             $("#youtube").addClass("hidden");
             $("#spotify").addClass("hidden");
             $("#groupme").addClass("hidden");
